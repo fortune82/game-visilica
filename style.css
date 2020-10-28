@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(rgb(187, 187, 187), transparent 1px), linear-gradient(90deg, #bbb, transparent 1px);
+    background-size: 15px 15px;
+    background-position: center center;
+}
+
+.wrapper {
+    display: flex;
+}
+
+button {
+    margin: 5px;
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.word {
+    margin-top: 500px;
+    font-size: 62px;
+}
+
+.inputWord {
+    width: 50px;
+    height: 60px;
+    margin-right: 5px;
+    font-size: 64px;
+    text-align: center;
+}
