@@ -28,7 +28,7 @@ function randomWord() {
 btn.addEventListener('click', function () {
     error = 0;
     outWord.innerHTML = ''; //очищает поле "word"
-    ctx.clearRect(0, 0, 800, 760); // стирает весь холст, где 1000 и 800 это размер стираемого холста 
+    ctx.clearRect(0, 0, 800, 600); // стирает весь холст, где 1000 и 800 это размер стираемого холста 
     let indexWord = randomWord()
     console.log(indexWord)
     let letters = indexWord.split(""); //создаем новую переменную в которую записываем случайное слово полученное в randomWord() и разбиваем это слово по отдельным буквам с помощью метода split(""), где "" это просто разделители;
